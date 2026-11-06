@@ -99,3 +99,4 @@ if(form){
    bd.querySelector('#age-no').addEventListener('click',  function(){
    window.location.href = "https://orivexa.site/"; // change to your target page
   });
+  })();
